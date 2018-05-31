@@ -433,6 +433,17 @@ def webhook():
         elif data['queryResult']['intent']['displayName'] in ['playnearbygoods', 'playnearbygoods - next']:
             next = int(eval(data['queryResult']['parameters']['next']))
             place = data['queryResult']['parameters']['place']
+            try:
+                km = float(data['queryResult']['parameters']['near-by-n-km'])
+            except:
+                for n, x in zip([1,2,3,4,5,6,7,8,9,10], ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十"]):
+                    if data['queryResult']['parameters']['near-by-n-km'] == x:
+                        km = n
+                        break
+            finally:
+                if km in ["", None]:
+                    km = 5
+                    
             if place in ["", None]:
                 if res[0][2] not in ["", None]:
                     place = res[0][2]
@@ -440,12 +451,13 @@ def webhook():
                 template['fulfillmentText'] = "很抱歉，我不知道您現在的位置，您可以先讓我認識您(說：嗨)以後再詢問！"
                 pass
             else:
+                template['fulfillmentText'] = "很抱歉，您輸入的公里數無效，使用預設值\n"
                 geo = geo_encode(place)
                 db = pymysql.connect("localhost", "linebot", "linbotoffatcat", "linebot", port = 3307, use_unicode=True, charset="utf8")
                 cursor = db.cursor()
                 sql = "SELECT name, ( 6371 * acos( cos( radians(%s) ) * cos( radians( lat ) ) * cos( radians( lon ) - radians(%s) ) + sin( radians(%s) ) * sin( radians( lat ) ) ) ) AS distance FROM place HAVING distance <= %s ORDER BY distance;"
                 print((geo['lat'], geo['lon'], geo['lat'], data['queryResult']['parameters']['near-by-n-km']))
-                l = cursor.execute(sql, (geo['lat'], geo['lon'], geo['lat'], data['queryResult']['parameters']['near-by-n-km']))
+                l = cursor.execute(sql, (geo['lat'], geo['lon'], geo['lat'], km))
                 if l > 0:
                     action_code = 3
                     pres = cursor.fetchall()
