@@ -448,6 +448,8 @@ def webhook():
                                 if i_p > (next + 1) * 10:
                                     break
                                 template['fulfillmentText'] += "{}. {}({}km)\n".format(i_p, p[0], round(float(p[1]), 2))
+                else:
+                    template['fulfillmentText'] = data['queryResult']['fulfillmentText']
                 db.close()
         elif data['queryResult']['intent']['displayName'] == 'playweather':
             period = data['queryResult']['parameters']['period']
