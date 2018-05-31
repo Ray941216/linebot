@@ -15,6 +15,10 @@ import pymysql
 # rcv_timestamp from_what ask_timestamp utype uid rq_msg intent rp_msg rp_time `clock`, `weekday`, `task`, `period`, `place`, `geo_lat`, `geo_lon`
 # 0             1         2             3     4   5      6      7      8       9        10         11       12        13       14         15
 
+# action_code = 3
+# rcv_timestamp from_what ask_timestamp utype uid rq_msg intent rp_msg rp_time `clock`, `weekday`, `place`, `geo_lat`, `geo_lon`
+# 0             1         2             3     4   5      6      7      8       9        10         11       12          13
+
 data = []
 # argv[-1] = action control
 
@@ -57,6 +61,19 @@ if len(sys.argv) > 3:
         sql = "INSERT INTO `weatherQhistory`(`u_id`, `clock`, `weekday`, `task`, `period`, `place`, `geo_lat`, `geo_lon`) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)"
         try:
             cursor.execute(sql, (data[4], data[9], data[10], data[11], data[12], data[13], data[14], data[15]))
+            db.commit()
+        except Exception as e:
+            db.rollback()
+            with open("log.txt", 'a+') as f:
+                f.write(sql)
+                f.write('\n')
+                f.write(str(e))
+                f.write('\n\n\n')
+    elif sys.argv[-1] == "3":
+        # record goods_query history
+        sql = "INSERT INTO `goodsQhistory`(`u_id`, `clock`, `weekday`, `place`, `geo_lat`, `geo_lon`) VALUES (%s,%s,%s,%s,%s,%s)"
+        try:
+            cursor.execute(sql, (data[4], data[9], data[10], data[11], data[12], data[13]))
             db.commit()
         except Exception as e:
             db.rollback()

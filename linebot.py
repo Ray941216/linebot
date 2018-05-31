@@ -12,27 +12,36 @@ from weather import Weather, Unit
 
 _DEBUGGING_ = True
 
+# geopy geoencoder
 geolocator = Nominatim()
 
 db = pymysql.connect("localhost", "linebot", "linbotoffatcat", "linebot", port = 3307, use_unicode=True, charset="utf8")
 cursor = db.cursor()
+
+# using to get keys from database
 sql = "SELECT `key_ptn` FROM `key_pad` WHERE name = %s"
 
+# Open Weather Map
 cursor.execute(sql, ('OWM_KEY'))
 k = cursor.fetchall()
 OWM_KEY = k[0][0]
 
+# Open Weather Map Official
 cursor.execute(sql, ('OWM_KEY_official'))
 k = cursor.fetchall()
 OWM_KEY_official = k[0][0]
 
+# Google Geoencode API
 cursor.execute(sql, ('GEOCODE_KEY'))
 k = cursor.fetchall()
 GEOCODE_KEY = k[0][0]
 
+db.close()
+
 if _DEBUGGING_:
     print(OWM_KEY, OWM_KEY_official, GEOCODE_KEY)
 
+# last update gov place data time
 LAST_UPDATE = datetime.now().timestamp()
 
 if not _DEBUGGING_:
@@ -438,6 +447,7 @@ def webhook():
                 print((geo['lat'], geo['lon'], geo['lat'], data['queryResult']['parameters']['near-by-n-km']))
                 l = cursor.execute(sql, (geo['lat'], geo['lon'], geo['lat'], data['queryResult']['parameters']['near-by-n-km']))
                 if l > 0:
+                    action_code = 3
                     pres = cursor.fetchall()
                     if next * 10 >= len(pres):
                         template['fulfillmentText'] = "沒有了"
@@ -723,6 +733,13 @@ def webhook():
                 sendtodb.append(rcv_dt.timetuple()[6])
                 sendtodb.append(task)
                 sendtodb.append(period)
+                sendtodb.append(place)
+                sendtodb.append(geo['lat'])
+                sendtodb.append(geo['lon'])
+
+            if action_code == 3:
+                sendtodb.append(rcv_dt.timetuple()[3])
+                sendtodb.append(rcv_dt.timetuple()[6])
                 sendtodb.append(place)
                 sendtodb.append(geo['lat'])
                 sendtodb.append(geo['lon'])
