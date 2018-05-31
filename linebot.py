@@ -10,7 +10,7 @@ from geopy.geocoders import Nominatim
 from datetime import datetime, timedelta
 from weather import Weather, Unit
 
-_DEBUGGING_ = False
+_DEBUGGING_ = True
 
 geolocator = Nominatim()
 
@@ -674,10 +674,14 @@ def webhook():
                     template['fulfillmentText'] = data['queryResult']['fulfillmentText']
                 else:
                     template['fulfillmentText'] = "偵測到的意圖是{}, 送來的訊息是{}".format(data['queryResult']['intent']['displayName'], data['queryResult']['queryText'])
-        del res
+
         try:
             return jsonify(template)
         finally:
+            try:
+                del res
+            except:
+                pass
             sendtodb = ['python', 'linebotsql.py', str(rcv_timestamp), 'from_what', 'ask_timestamp', 'utype', 'uid', 'rq_msg', 'intent', 'rp_msg', str(timestamper())]
             if 'source' in data['originalDetectIntentRequest']: # from other integration
                 sendtodb[3] = data['originalDetectIntentRequest']['source']
