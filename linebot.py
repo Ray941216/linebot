@@ -258,6 +258,10 @@ def weather_query(geo, period):
                     desc = wc[0][0]
                 else:
                     desc = wres['weather'][0]['description']
+                    sql = "INSERT INTO `weather_cond`(`id`, `description`) VALUES (%s,%s)"
+                    cursor.execute(sql, (wres['weather'][0]['id'], wres['weather'][0]['description']))
+                    cursor.commit()
+
 
                 out['ans'] = {
                     'description': desc,
@@ -417,7 +421,34 @@ def webhook():
                 template['fulfillmentText'] += "濕度：{}％\n".format(w['humidity'])
                 template['fulfillmentText'] += "雲層覆蓋率：{}％\n".format(w['clouds'])
                 template['fulfillmentText'] += "風速：{}公尺/秒\n".format(w['speed'])
-
+        elif data['queryResult']['intent']['displayName'] in ['playnearbygoods', 'playnearbygoods - next']:
+            next = int(eval(data['queryResult']['parameters']['next']))
+            place = data['queryResult']['parameters']['place']
+            if place in ["", None]:
+                if res[0][2] not in ["", None]:
+                    place = res[0][2]
+            if place == "":
+                template['fulfillmentText'] = "很抱歉，我不知道您現在的位置，您可以先讓我認識您(說：嗨)以後再詢問！"
+                pass
+            else:
+                geo = geo_encode(place)
+                db = pymysql.connect("localhost", "linebot", "linbotoffatcat", "linebot", port = 3307, use_unicode=True, charset="utf8")
+                cursor = db.cursor()
+                sql = "SELECT name, ( 6371 * acos( cos( radians(%s) ) * cos( radians( lat ) ) * cos( radians( lon ) - radians(%s) ) + sin( radians(%s) ) * sin( radians( lat ) ) ) ) AS distance FROM place HAVING distance <= %s ORDER BY distance;"
+                print((geo['lat'], geo['lon'], geo['lat'], data['queryResult']['parameters']['near-by-n-km']))
+                l = cursor.execute(sql, (geo['lat'], geo['lon'], geo['lat'], data['queryResult']['parameters']['near-by-n-km']))
+                if l > 0:
+                    pres = cursor.fetchall()
+                    if next * 10 >= len(pres):
+                        template['fulfillmentText'] = "沒有了"
+                    else:
+                        template['fulfillmentText'] = "{}附近{}公里內的景點總數{}個，目前顯示{}~{}筆，説「下一頁」來查看更多：\n".format(place, data['queryResult']['parameters']['near-by-n-km'], l, next * 10 + 1, min((next + 1) * 10, l))
+                        for i_p, p in enumerate(pres):
+                            if i_p > next * 10:
+                                if i_p > (next + 1) * 10:
+                                    break
+                                template['fulfillmentText'] += "{}. {}({}km)\n".format(i_p, p[0], round(float(p[1]), 2))
+                db.close()
         elif data['queryResult']['intent']['displayName'] == 'playweather':
             period = data['queryResult']['parameters']['period']
             if period == "":
