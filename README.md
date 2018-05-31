@@ -10,3 +10,4 @@ Server is using python3 Flask
 - smalltalk project
 ## Try it
 - LineID: @xth8958g
+- QR CODE ![image](./pic/qr.png)
