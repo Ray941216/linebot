@@ -11,6 +11,7 @@ Server is using python3 Flask
 2. Ask Math function
 ![image](./pic/m01.png)
 3. Ask near by N km good place
+![image](./pic/p01.png)
 
 ## Sub Functions
 - smalltalk project
