@@ -1,0 +1,386 @@
+[
+  {
+    "id": "f9070353-61e1-47ee-a0ba-c94c579b78ed",
+    "data": [
+      {
+        "text": "你能幫我個忙嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "26f73f71-781d-4eaa-82cd-3c37bb7fee7e",
+    "data": [
+      {
+        "text": "請你協助我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "2551046e-cff8-4fc0-8033-b6c07c7f2704",
+    "data": [
+      {
+        "text": "你現在可以幫我嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "22a7a2b4-289f-4850-bb89-d1a38dac23cd",
+    "data": [
+      {
+        "text": "你會幫我嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "24b1ec88-770d-4be3-ab12-8126d4264493",
+    "data": [
+      {
+        "text": "你想幫我嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "8517691b-377a-4dc0-9420-cc9f3aea6fd5",
+    "data": [
+      {
+        "text": "你可以不可以幫助我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "448639c1-f4c1-4552-be37-8a2067fcea08",
+    "data": [
+      {
+        "text": "你可以幫我一些東西嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "a9802a0e-e1e4-4308-9ad2-837808a98e56",
+    "data": [
+      {
+        "text": "我想要你的幫助",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "30c9136a-dd3d-491a-9025-8a301bec946b",
+    "data": [
+      {
+        "text": "你能幫我嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "31401063-de83-47d2-b42b-ad07902250a4",
+    "data": [
+      {
+        "text": "我自能給你幫助我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f09d5173-5a4d-47c0-8dae-22ae17ad9fe5",
+    "data": [
+      {
+        "text": "幫我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2685d48c-d380-41e5-96f2-c5fa624619f4",
+    "data": [
+      {
+        "text": "我需要你幫助我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "eb088d56-94a5-4975-af88-44b7ea64a983",
+    "data": [
+      {
+        "text": "可以幫我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "7e882d2a-55e2-463b-9bc1-ad1857c4b569",
+    "data": [
+      {
+        "text": "你能協助我嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "dd5d6cf7-9a63-43e1-a41b-87d03a66afca",
+    "data": [
+      {
+        "text": "你要幫我嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "c5ea3620-815d-47c0-9a9d-b102151de2c9",
+    "data": [
+      {
+        "text": "幫幫我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "a13bee36-a270-428d-a42f-dc94c0801f55",
+    "data": [
+      {
+        "text": "請你幫助我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d5abfdaa-af5a-43c3-8306-dff1659017f9",
+    "data": [
+      {
+        "text": "你可以幫我們嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c3d7f22-4963-454d-9196-fabfdcc71b93",
+    "data": [
+      {
+        "text": "我需要你的幫助",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f9c0df79-fdef-4c9a-86bc-3ceb8e1a4ddb",
+    "data": [
+      {
+        "text": "你可以幫我嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "02a65c1a-9357-4d59-aa0f-8c28042914d1",
+    "data": [
+      {
+        "text": "請幫幫我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "944fbe0a-2fca-470e-98fe-518d510d9d14",
+    "data": [
+      {
+        "text": "我現在需要你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "fae836fc-227b-4cfd-ad8d-1b79fed71ab6",
+    "data": [
+      {
+        "text": "我需要一些幫助",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "26d156d9-722e-4d99-8800-2e6fea4abb5c",
+    "data": [
+      {
+        "text": "我需要你幫忙我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "6f5fd1a8-a905-4fea-a1e9-72a50a96aea2",
+    "data": [
+      {
+        "text": "幫助",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "0ccf50f0-f7fe-488f-b3d3-ce36ef5d66f6",
+    "data": [
+      {
+        "text": "需要你的幫助",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6e4a4fe8-2c61-4495-b2e4-1b8760e17419",
+    "data": [
+      {
+        "text": "幫我個忙",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "803f3356-de77-4da1-b25e-e97d6cb9d231",
+    "data": [
+      {
+        "text": "你幫我嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "00f2e3b5-f3da-4f30-8769-ed8d47d7bc94",
+    "data": [
+      {
+        "text": "需要你幫忙我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "e9e69af8-afd3-4735-86f4-ddfe9345a12e",
+    "data": [
+      {
+        "text": "幫我解決一個問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "aad267ec-91fd-41e5-ae60-ab9c8c53cc9f",
+    "data": [
+      {
+        "text": "你幫我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527770484
+  },
+  {
+    "id": "47f03c0b-eccd-46f8-8452-bfd2fc816801",
+    "data": [
+      {
+        "text": "我要你的幫助",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

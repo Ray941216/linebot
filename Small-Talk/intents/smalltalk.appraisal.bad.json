@@ -1,0 +1,22 @@
+{
+  "id": "aff21910-42d5-48c1-ab1a-bc5c6fcd7fda",
+  "name": "smalltalk.appraisal.bad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.bad",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493720995792,
+  "fallbackIntent": false,
+  "events": []
+}

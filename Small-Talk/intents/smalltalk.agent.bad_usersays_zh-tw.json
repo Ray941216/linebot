@@ -1,0 +1,496 @@
+[
+  {
+    "id": "9ec17025-be19-4a1f-a439-16804853815b",
+    "data": [
+      {
+        "text": "爛",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772613
+  },
+  {
+    "id": "77aea56e-0dc1-4516-8b0e-5719ed7048bb",
+    "data": [
+      {
+        "text": "你是壞人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "e0f321d1-c735-4e2c-b020-067cb8a56665",
+    "data": [
+      {
+        "text": "你很可怕",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772613
+  },
+  {
+    "id": "18f415f0-36f1-43d2-88ff-c369cb4dad63",
+    "data": [
+      {
+        "text": "媽的",
+        "userDefined": false
+      },
+      {
+        "text": "@sys.any",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "4c304140-2e59-44bb-9705-cd89e5552b2a",
+    "data": [
+      {
+        "text": "操",
+        "userDefined": false
+      },
+      {
+        "text": "@sys.any",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "2919f129-12d9-412b-863c-8eaa9769f6bd",
+    "data": [
+      {
+        "text": "糙",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "bfe7e2c9-dbfc-4be3-bf8b-dfeae64633b3",
+    "data": [
+      {
+        "text": "智障",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "649a12f2-5ac5-4d63-928a-7007dd2dc1c7",
+    "data": [
+      {
+        "text": "你很爛",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "c803b901-5e77-4c57-994a-7f5d1ff3158d",
+    "data": [
+      {
+        "text": "垃圾",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "75488792-54ee-4a4c-9c24-81ecb4ea8367",
+    "data": [
+      {
+        "text": "fuck",
+        "userDefined": false
+      },
+      {
+        "text": "@sys.any",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "b055d75a-83a1-4ea6-bb8d-c8f089fef0e8",
+    "data": [
+      {
+        "text": "幹您娘",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "452c1236-b416-4f64-a8c2-fbdfa768ea23",
+    "data": [
+      {
+        "text": "你很可怕你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "fdfae105-3a6f-413b-bfe9-af0947e34d0d",
+    "data": [
+      {
+        "text": "你真的很糟糕",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "035e67d7-7fe7-4fe0-83fb-5ac12f18e1ec",
+    "data": [
+      {
+        "text": "你不幫我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "c1dcd9c2-b127-4b6b-a537-c76287440871",
+    "data": [
+      {
+        "text": "低能",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "16af55a3-1da6-46ca-b2c2-97ac0a03e0f9",
+    "data": [
+      {
+        "text": "媽的",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "3ef7f05b-296c-41c2-86d9-890c65bdb3ca",
+    "data": [
+      {
+        "text": "你是壞的",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "1d1de6f3-fcb8-47cc-bc66-8c06d5735af9",
+    "data": [
+      {
+        "text": "操你媽",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772613
+  },
+  {
+    "id": "d5e73880-cae6-47a9-bb45-181160e1213c",
+    "data": [
+      {
+        "text": "你很沒有用的",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "e434bc01-f23d-4a36-85d6-03d3e5b82273",
+    "data": [
+      {
+        "text": "你完全沒有用的",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "b236366b-453f-473a-a409-be1d0c316d4f",
+    "data": [
+      {
+        "text": "你真的很沒有用的",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "34802027-bd61-404b-b94d-fa7037926de7",
+    "data": [
+      {
+        "text": "操",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1527772498
+  },
+  {
+    "id": "01372402-91c6-4802-96f4-1e6b37633063",
+    "data": [
+      {
+        "text": "白痴",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "f644f992-ca02-4ea9-8940-0838c657a276",
+    "data": [
+      {
+        "text": "你不是一個好人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "2e2dfc70-843c-41b6-9cfc-13194645fa5d",
+    "data": [
+      {
+        "text": "腦殘",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772613
+  },
+  {
+    "id": "ab20352a-a5f7-4d8f-a3b6-f7c9671dd9e5",
+    "data": [
+      {
+        "text": "你是最糟糕的",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "7f64063f-fb35-4375-81aa-b8fe6841c664",
+    "data": [
+      {
+        "text": "@sys.any:any @dirty-word:dirty-word",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527772613
+  },
+  {
+    "id": "d9a939a9-7f5d-4975-a5b9-85b36f27dd0f",
+    "data": [
+      {
+        "text": "糙",
+        "userDefined": false
+      },
+      {
+        "text": "@sys.any",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "54d45d7b-8675-4348-b4ba-dc570efd3c26",
+    "data": [
+      {
+        "text": "fuck",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1527772613
+  },
+  {
+    "id": "a81df0a5-003a-4e11-81ce-3e74c3a23334",
+    "data": [
+      {
+        "text": "幹",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772613
+  },
+  {
+    "id": "f0b12adf-22b2-4eb7-93f0-70a99397048c",
+    "data": [
+      {
+        "text": "@dirty-word:dirty-word  @sys.any:any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527772613
+  },
+  {
+    "id": "3ca359ff-64d1-45df-ba04-7d8f3a61b96f",
+    "data": [
+      {
+        "text": "你不太好的",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772613
+  },
+  {
+    "id": "aa0d2509-12e4-4498-b3f7-fbdfde127fa9",
+    "data": [
+      {
+        "text": "你是糟糕的",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772613
+  },
+  {
+    "id": "2f3aee2f-fa75-4e83-bea1-ddd99d67abfe",
+    "data": [
+      {
+        "text": "你很糟糕",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  },
+  {
+    "id": "12d4c629-7876-415c-9781-0657a8303ae3",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "太壞了",
+        "alias": "dirty-word",
+        "meta": "@dirty-word",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527772498
+  },
+  {
+    "id": "241c2df1-a9ca-4ce6-903a-b4bcd46ca5b6",
+    "data": [
+      {
+        "text": "幹",
+        "userDefined": false
+      },
+      {
+        "text": "@sys.any",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527003032
+  }
+]

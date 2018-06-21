@@ -1,0 +1,51 @@
+{
+  "description": "Allow your app to engage in small talk about a variety of topics.",
+  "language": "zh-tw",
+  "shortDescription": "Small talk topics to help make your bot more personable",
+  "examples": "User: 你好！\nUser: 你好嗎？\nUser: 感謝！\nUser: 不客氣。\nUser: 有什麼事嗎？\nUser: 我好無聊。\nUser: 我開玩笑的。\nUser: 非常好！\nUser: 你是誰？\nUser: 你幾歲了？\nUser: 你很聰明。\nUser: 你會做什麼娛樂活動？",
+  "activeAssistantAgents": [],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "small-talk-5d9ed",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "9b91e4d3-3623-4d8a-984e-cabc05a7e2b0",
+      "4aac50a8-a1bc-4b49-b53f-50cc7f8008b8",
+      "d8ab824b-1b19-4007-a095-fd3862c6eed6",
+      "b9d7b6de-b60f-43a6-80bb-218810cb6bd7",
+      "bbeb601e-cafc-44cd-b0e3-acbbc3109d68",
+      "fe48eee8-dd03-4f01-a281-8c1617ff95fa",
+      "94e9d0a4-cad1-42e7-82cd-c548ed83270c",
+      "b2a08e4e-a964-483a-a37e-ed8e03422fdd"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Hong_Kong",
+  "webhook": {
+    "url": "http://140.115.59.250:5000/callback",
+    "headers": {
+      "": "",
+      "fullfillment": "201805202047"
+    },
+    "available": true,
+    "useForDomains": true,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.instead",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2beta1"
+}

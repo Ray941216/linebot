@@ -1,0 +1,54 @@
+{
+  "id": "a4143c86-3ebe-41e7-bf40-75f2cd9000ae",
+  "name": "playweather",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "playweather",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "24eb111a-55e0-4738-bcc9-19c0577191ec",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "place",
+          "value": "$place",
+          "isList": false
+        },
+        {
+          "id": "9ba6c178-3fc5-409f-938a-0e28e74d0fc8",
+          "required": false,
+          "dataType": "@weather_task",
+          "name": "task",
+          "value": "$task",
+          "isList": false
+        },
+        {
+          "id": "fff8e150-4c03-4bb8-ade2-a4d1dbff70a1",
+          "required": false,
+          "dataType": "@weather_period",
+          "name": "period",
+          "value": "$period",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "很抱歉，目前無法取得天氣資訊"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527792179,
+  "fallbackIntent": false,
+  "events": []
+}

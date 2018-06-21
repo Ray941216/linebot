@@ -1,0 +1,33 @@
+{
+  "id": "85254d8d-b449-444e-b44a-e072a59e1b7f",
+  "name": "smalltalk.agent.boring",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.boring",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "好傷心。我要怎麼取悅你",
+            "我要怎樣才能會有趣，你要教我嗎",
+            "我有在努力跟上時代"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526810938,
+  "fallbackIntent": false,
+  "events": []
+}

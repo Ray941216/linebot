@@ -1,0 +1,52 @@
+{
+  "id": "4aac50a8-a1bc-4b49-b53f-50cc7f8008b8",
+  "name": "playmath",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "playmath",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5d983594-17a6-4305-b663-3c21f09343a9",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "math-str",
+          "value": "$math-str",
+          "prompts": [
+            {
+              "lang": "zh-tw",
+              "value": "你說我就算！"
+            },
+            {
+              "lang": "zh-tw",
+              "value": "來！我超強！"
+            },
+            {
+              "lang": "zh-tw",
+              "value": "我超會！"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "算不出來ＱＱ"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527233339,
+  "fallbackIntent": false,
+  "events": []
+}

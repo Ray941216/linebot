@@ -1,0 +1,50 @@
+[
+  {
+    "id": "b46905d5-4448-4f0b-8557-96646e59bc27",
+    "data": [
+      {
+        "text": "你被解雇了",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526833299
+  },
+  {
+    "id": "cee77bc2-09a8-413f-9f67-592297ed78ba",
+    "data": [
+      {
+        "text": "我告訴你你被解雇了",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526833299
+  },
+  {
+    "id": "a666a59a-2a6f-4b90-a928-04738cb56151",
+    "data": [
+      {
+        "text": "我要解雇你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526833299
+  },
+  {
+    "id": "f874487d-157b-4b97-a5d3-a28124a9db87",
+    "data": [
+      {
+        "text": "你解除了職務",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

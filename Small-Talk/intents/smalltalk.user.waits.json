@@ -1,0 +1,22 @@
+{
+  "id": "cbb7fae0-115f-4890-a99d-30b166ecd197",
+  "name": "smalltalk.user.waits",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.waits",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493720995914,
+  "fallbackIntent": false,
+  "events": []
+}

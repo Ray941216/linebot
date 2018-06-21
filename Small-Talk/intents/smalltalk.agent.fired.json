@@ -1,0 +1,33 @@
+{
+  "id": "bbeb601e-cafc-44cd-b0e3-acbbc3109d68",
+  "name": "smalltalk.agent.fired",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.fired",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "(O.O)!!!!",
+            "我做錯了什麼嗎?",
+            "如果你真的不要我，就把我封鎖吧"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527003274,
+  "fallbackIntent": false,
+  "events": []
+}

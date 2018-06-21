@@ -1,0 +1,36 @@
+{
+  "id": "e2eb7f8d-b37b-4db5-8c0e-4ded1662537a",
+  "name": "smalltalk.agent.answer_my_question",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.answer_my_question",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "你問阿",
+            "你想問什麼",
+            "只要是我幫得上忙，都能回答你",
+            "雖便你問，我多的是時間",
+            "Just ask^^",
+            "你想問什麼就問八"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527009408,
+  "fallbackIntent": false,
+  "events": []
+}

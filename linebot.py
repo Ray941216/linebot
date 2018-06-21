@@ -41,17 +41,17 @@ db.close()
 if _DEBUGGING_:
     print(OWM_KEY, OWM_KEY_official, GEOCODE_KEY)
 
-# last update gov place data time
-LAST_UPDATE = datetime.now().timestamp()
-
 if not _DEBUGGING_:
     try:
-        print(spcss.run("python openplacetosql.py".split(" ")))
+        spcss.run("python openplacetosql.py".split(" "))
     except spcss.CalledProcessError:
         print(spcss.CalledProcessError)
     except Exception as e:
         print(str(e))
 
+# last update gov place data time
+LAST_UPDATE = datetime.now().timestamp()
+print("Update Place Data", LAST_UPDATE)
 
 def geo_encode(place_name):
     print("geo_encode:", place_name)
@@ -184,6 +184,40 @@ def feeling_temp(temp, wind, humidity):
     }
     return out
 
+def G2TP(feeling_temp, weekday, wdesc):
+    diff = abs(feeling_temp['feeling_temp'] - 23.5)
+    power = 3 if feeling_temp['feel'] in ["酷熱", "寒冷"] else 1.5 if feeling_temp['feel'] in ["熱", "冷"] else 1 if feeling_temp['feel'] in ["微熱", "微冷"] else 0
+    wd = 7 - weekday
+
+    base_score = 93
+    if wdesc.find("雨") > -1:
+        sub2 = "會下{}，應攜帶雨具備用".format(wdesc)
+        if wdesc.find("大") > -1 or wdesc.find("豪") > -1 or wdesc.find("強") > -1 or wdesc.find("凍") > -1:
+            base_score -= 80
+        elif wdesc.find("中") > -1 or wdesc == "陣雨":
+            base_score -= 65
+        elif wdesc == "局部短暫陣雨":
+            base_score -= 55
+        else:
+            base_score -= 40
+    else:
+        sub2 = "可攜帶陽傘備用"
+
+    score = np.around((base_score - diff * power + wd * (2 - power)) / 20, decimals=1)
+    description = "適合外出的分數: {} / 5.0，\n{}，{}。"
+
+    if feeling_temp['feel'] in ["酷熱", "熱", "微熱"]:
+        sub1 = "外出應做好防中暑對策，並多補充水分以防中暑"
+    elif feeling_temp['feel'] in ["寒冷", "冷", "微冷"]:
+        sub1 = "外出應做好保暖，並注意溫度變化以防著涼"
+    else:
+        sub1 = "天氣舒適"
+
+    return description.format(score, sub1, sub2)
+
+
+
+    return score
 
 def weather_query(geo, period):
     print("weather_query:", geo, period)
@@ -387,8 +421,8 @@ def webhook():
                 while math_exp2.find('=') > -1:
                     math_exp2 = math_exp2.replace('=', "")
 
-                ptn = ['(', ")", '＾', '^', '[', ']', '{', '}', '=', "（", "）", "＋", "－", "＊", "／", "π", "加", "減", "乘", "除", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "百", "千", "萬"]
-                rightptn = ["（（", "））", "**", "**", "(", ")", "(", ")", "", "(", ")", "+", "-", "*", "/", "(pi)", "+", "-", "*", "/", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "*100", "*1000", "*10000"]
+                ptn = ['(', ")", '＾', '^', '[', ']', '{', '}', '=', "（", "）", "＋", "－", "＊", "／", "π", "加", "減", "乘", "除", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "百", "千", "萬", "負"]
+                rightptn = ["（（", "））", "**", "**", "(", ")", "(", ")", "", "(", ")", "+", "-", "*", "/", "(pi)", "+", "-", "*", "/", "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9", "+10", "*100", "*1000", "*10000", "(-1)*"]
                 for p, r in zip(ptn, rightptn):
                     while math_exp.find(p) > -1:
                         math_exp = math_exp.replace(p, r)
@@ -420,6 +454,7 @@ def webhook():
             for i, w in enumerate(ans['ans']):
                 template['fulfillmentText'] += "概況：{}\n".format(w['weather'][0]['description'])
                 f = feeling_temp(np.average([w['temp']['max'], w['temp']['min'], w['temp']['morn'], w['temp']['day'], w['temp']['eve'], w['temp']['night']]), w['speed'], w['humidity'])
+                template['fulfillmentText'] += "{}\n\n".format(G2TP(f, datetime.now().timetuple()[6], w['weather'][0]['description']))
                 template['fulfillmentText'] += "平均體感氣溫：{}度（{}）\n".format(f['feeling_temp'], f['feel'])
                 template['fulfillmentText'] += "最高氣溫：{}度\n".format(w['temp']['max'])
                 template['fulfillmentText'] += "最低氣溫：{}度\n".format(w['temp']['min'])
@@ -435,6 +470,12 @@ def webhook():
             place = data['queryResult']['parameters']['place']
             try:
                 km = float(data['queryResult']['parameters']['near-by-n-km'])
+                if km > 100:
+                    template['fulfillmentText'] = "很抱歉，您輸入的公里數無效，使用最大值\n"
+                    km = 100
+                elif km <= 0:
+                    template['fulfillmentText'] = "很抱歉，您輸入的公里數無效，使用最小值\n"
+                    km = 1
             except:
                 for n, x in zip([1,2,3,4,5,6,7,8,9,10], ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十"]):
                     if data['queryResult']['parameters']['near-by-n-km'] == x:
@@ -442,8 +483,9 @@ def webhook():
                         break
             finally:
                 if km in ["", None]:
+                    template['fulfillmentText'] = "很抱歉，您輸入的公里數無效，使用預設值\n"
                     km = 5
-                    
+
             if place in ["", None]:
                 if res[0][2] not in ["", None]:
                     place = res[0][2]
@@ -451,7 +493,6 @@ def webhook():
                 template['fulfillmentText'] = "很抱歉，我不知道您現在的位置，您可以先讓我認識您(說：嗨)以後再詢問！"
                 pass
             else:
-                template['fulfillmentText'] = "很抱歉，您輸入的公里數無效，使用預設值\n"
                 geo = geo_encode(place)
                 db = pymysql.connect("localhost", "linebot", "linbotoffatcat", "linebot", port = 3307, use_unicode=True, charset="utf8")
                 cursor = db.cursor()
@@ -464,7 +505,7 @@ def webhook():
                     if next * 10 >= len(pres):
                         template['fulfillmentText'] = "沒有了"
                     else:
-                        template['fulfillmentText'] = "{}附近{}公里內的景點總數{}個，目前顯示{}~{}筆，説「下一頁」來查看更多：\n".format(place, data['queryResult']['parameters']['near-by-n-km'], l, next * 10 + 1, min((next + 1) * 10, l))
+                        template['fulfillmentText'] = "{}附近{}公里內的景點總數{}個，目前顯示{}~{}筆，説「下一頁」來查看更多：\n".format(place, km, len(pres), next * 10 + 1, min((next + 1) * 10, len(pres)))
                         for i_p, p in enumerate(pres):
                             if i_p > next * 10:
                                 if i_p > (next + 1) * 10:
@@ -523,6 +564,7 @@ def webhook():
                                     template['fulfillmentText'] += "{}月{}日（{}）\n".format(nextD.timetuple()[1], nextD.timetuple()[2],weekday[nextD.timetuple()[6]])
                                     template['fulfillmentText'] += "概況：{}\n".format(w['weather'][0]['description'])
                                     f = feeling_temp(np.average([w['temp']['max'], w['temp']['min'], w['temp']['morn'], w['temp']['day'], w['temp']['eve'], w['temp']['night']]), w['speed'], w['humidity'])
+                                    template['fulfillmentText'] += "{}\n\n".format(G2TP(f, nextD.timetuple()[6], w['weather'][0]['description']))
                                     template['fulfillmentText'] += "平均體感氣溫：{}度（{}）\n".format(f['feeling_temp'], f['feel'])
                                     template['fulfillmentText'] += "最高氣溫：{}度\n".format(w['temp']['max'])
                                     template['fulfillmentText'] += "最低氣溫：{}度\n".format(w['temp']['min'])
@@ -541,6 +583,7 @@ def webhook():
                                     template['fulfillmentText'] += "{}月{}日（{}）\n".format(nextD.timetuple()[1], nextD.timetuple()[2],weekday[nextD.timetuple()[6]])
                                     template['fulfillmentText'] += "概況：{}\n".format(w['weather'][0]['description'])
                                     f = feeling_temp(np.average([w['temp']['max'], w['temp']['min'], w['temp']['morn'], w['temp']['day'], w['temp']['eve'], w['temp']['night']]), w['speed'], w['humidity'])
+                                    template['fulfillmentText'] += "{}\n\n".format(G2TP(f, nextD.timetuple()[6], w['weather'][0]['description']))
                                     template['fulfillmentText'] += "平均體感氣溫：{}度（{}）\n".format(f['feeling_temp'], f['feel'])
                                     template['fulfillmentText'] += "最高氣溫：{}度\n".format(w['temp']['max'])
                                     template['fulfillmentText'] += "最低氣溫：{}度\n".format(w['temp']['min'])
@@ -557,6 +600,7 @@ def webhook():
                                         template['fulfillmentText'] += "\n"
                                     template['fulfillmentText'] += "概況：{}\n".format(w['weather'][0]['description'])
                                     f = feeling_temp(np.average([w['temp']['max'], w['temp']['min'], w['temp']['morn'], w['temp']['day'], w['temp']['eve'], w['temp']['night']]), w['speed'], w['humidity'])
+                                    template['fulfillmentText'] += "{}\n\n".format(G2TP(f, datetime.now().timetuple()[6], w['weather'][0]['description']))
                                     template['fulfillmentText'] += "平均體感氣溫：{}度（{}）\n".format(f['feeling_temp'], f['feel'])
                                     template['fulfillmentText'] += "最高氣溫：{}度\n".format(w['temp']['max'])
                                     template['fulfillmentText'] += "最低氣溫：{}度\n".format(w['temp']['min'])
@@ -572,6 +616,7 @@ def webhook():
                             template['fulfillmentText'] = "{}{}的{}資訊如下：\n".format(period, place, task)
                             template['fulfillmentText'] += "概況：{}\n".format(ans['ans']['description'])
                             f = feeling_temp(ans['ans']['temp'], ans['ans']['wind'], ans['ans']['humidity'])
+                            template['fulfillmentText'] += "{}\n\n".format(G2TP(f, datetime.now().timetuple()[6], ans['ans']['description']))
                             template['fulfillmentText'] += "目前體感氣溫：{}度（{}）\n".format(f['feeling_temp'], f['feel'])
                             template['fulfillmentText'] += "目前氣溫：{}度\n".format(ans['ans']['temp'])
                             template['fulfillmentText'] += "最高氣溫：{}度\n".format(ans['ans']['temp_max'])
@@ -769,13 +814,20 @@ def webhook():
             except Exception as e:
                 print(str(e))
 
+            global LAST_UPDATE
+            print("Last update:", LAST_UPDATE)
             if datetime.now().timestamp() - LAST_UPDATE >= 86400:
-                try:
-                    print(spcss.run("python openplacetosql.py".split(" ")))
-                except spcss.CalledProcessError:
-                    print(spcss.CalledProcessError)
-                except Exception as e:
-                    print(str(e))
+                LAST_UPDATE = datetime.now().timestamp()
+                print("Update Place Data", LAST_UPDATE)
+                while True:
+                    if datetime.now().timetuple()[3] in [4]:
+                        try:
+                            print(spcss.run("python openplacetosql.py".split(" ")))
+                        except spcss.CalledProcessError:
+                            print(spcss.CalledProcessError)
+                        except Exception as e:
+                            print(str(e))
+                        break
     else:
         return abort(401)
 

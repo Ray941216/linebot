@@ -1,0 +1,119 @@
+[
+  {
+    "id": "41cbc15e-7437-4019-88ec-f41d025e263b",
+    "data": [
+      {
+        "text": "你是一個機器人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b07b8548-4c27-432a-a0ae-378bed15672d",
+    "data": [
+      {
+        "text": "我覺得你是聊天機器人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c846245-4279-4b1d-afdf-84a3046fde89",
+    "data": [
+      {
+        "text": "你只是一個機器人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5929027a-7ff0-4e78-9e36-cc409ae31858",
+    "data": [
+      {
+        "text": "你是聊",
+        "userDefined": false
+      },
+      {
+        "text": "天機",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "器人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4def2f15-ffbe-4add-a85e-0a5d2c3a357c",
+    "data": [
+      {
+        "text": "你是一個程序嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46e514b9-7dff-4b2d-a165-5d23315f48cf",
+    "data": [
+      {
+        "text": "你是一個機器人嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "90cea50f-a335-4a98-b225-d2a45e2d4283",
+    "data": [
+      {
+        "text": "你是機器人嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f0a24fc-0052-46e1-aa52-cd34346ed6e3",
+    "data": [
+      {
+        "text": "你只是聊天機器人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48e3cd81-2b61-4846-af62-5b862c1321cc",
+    "data": [
+      {
+        "text": "你想聊天機器人一樣",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

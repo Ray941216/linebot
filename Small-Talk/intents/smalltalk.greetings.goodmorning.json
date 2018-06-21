@@ -1,0 +1,38 @@
+{
+  "id": "9eb79d3d-1f43-4560-acb4-d3a390bc731c",
+  "name": "smalltalk.greetings.goodmorning",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.goodmorning",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7397d54e-2c1b-4c99-8246-6c10b77dd562",
+          "required": false,
+          "dataType": "@greeting_task",
+          "name": "task",
+          "value": "$task",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "$task！"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527649412,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "874cc13f-dfd3-43f3-a477-5ed896cec94e",
+  "name": "smalltalk.user.going_to_bed",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.going_to_bed",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493720995881,
+  "fallbackIntent": false,
+  "events": []
+}

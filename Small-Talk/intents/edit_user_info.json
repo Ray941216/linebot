@@ -1,0 +1,80 @@
+{
+  "id": "6734dfe4-471e-4195-a6e2-0ff3289c133b",
+  "name": "edit_user_info",
+  "auto": true,
+  "contexts": [
+    "user"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "edit_user_info",
+      "affectedContexts": [
+        {
+          "name": "user",
+          "parameters": {},
+          "lifespan": 1410065407
+        }
+      ],
+      "parameters": [
+        {
+          "id": "88426fd0-e69d-4068-9d30-874a932bc5ed",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "zh-tw",
+              "value": "您現在登錄的資料是「 #user.name / #user.gender / #user.home」，請問您要將您的「大名」改成什麼？"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "092f3660-5f31-48f7-a541-e66da0c83fd5",
+          "required": true,
+          "dataType": "@gender",
+          "name": "gender",
+          "value": "$gender",
+          "prompts": [
+            {
+              "lang": "zh-tw",
+              "value": "您要將您的「性別」修改成什麼？"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "b68e71a6-2939-4fd1-a2e8-715f23702253",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "home",
+          "value": "$home",
+          "prompts": [
+            {
+              "lang": "zh-tw",
+              "value": "您要將您的「居住地」修改成什麼？"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "已經修改成 「 $name / $gender / $home 」了"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527790922,
+  "fallbackIntent": false,
+  "events": []
+}

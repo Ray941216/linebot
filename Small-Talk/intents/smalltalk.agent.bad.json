@@ -1,0 +1,46 @@
+{
+  "id": "9f5be5a6-2f30-4330-95a6-e4212885cd68",
+  "name": "smalltalk.agent.bad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.bad",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c223dc79-0a36-4144-8468-2b42e4a51c43",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        },
+        {
+          "id": "79f1fe17-0be4-4835-b2fc-b43652219faa",
+          "required": false,
+          "dataType": "@dirty-word",
+          "name": "dirty-word",
+          "value": "$dirty-word",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "我是個訓練有素的執事，我知道主人生活壓力大，請您盡情地釋放你的情緒！"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527772613,
+  "fallbackIntent": false,
+  "events": []
+}

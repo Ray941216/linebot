@@ -1,0 +1,58 @@
+{
+  "id": "75e6d4e4-d79e-4d3a-b7dc-b1d4a1cd2ead",
+  "name": "smalltalk.greetings.hello",
+  "auto": true,
+  "contexts": [
+    "user"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.hello",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8076172e-b301-494d-b2e8-aa512f940dd8",
+          "required": false,
+          "name": "name",
+          "value": "#user.name",
+          "isList": false
+        },
+        {
+          "id": "66dd8c67-f6ac-4b0b-8c59-a37a016e4dc0",
+          "required": false,
+          "name": "gender",
+          "value": "#user.gender",
+          "isList": false
+        },
+        {
+          "id": "f82a3404-18b0-43e9-94c0-0fbbc98a7831",
+          "required": false,
+          "name": "home",
+          "value": "#user.home",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "你好呀！ $name",
+            "我很好！$name 呢？",
+            "Hi $name",
+            "嗨嗨 $name"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527145976,
+  "fallbackIntent": false,
+  "events": []
+}

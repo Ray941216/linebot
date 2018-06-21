@@ -1,0 +1,52 @@
+{
+  "id": "83747f9e-05d1-4d15-a39b-5bb02917dd25",
+  "name": "my_info_is",
+  "auto": true,
+  "contexts": [
+    "user"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8f2bd579-5b0e-496d-a341-f4d18c340721",
+          "required": false,
+          "name": "name",
+          "value": "#user.name",
+          "isList": false
+        },
+        {
+          "id": "ed3ff1d5-1d60-412e-81ad-c355b36168d0",
+          "required": false,
+          "name": "gender",
+          "value": "#user.gender",
+          "isList": false
+        },
+        {
+          "id": "c672d33b-9ecf-4477-b193-c1e1a830f589",
+          "required": false,
+          "name": "home",
+          "value": "#user.home",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "主人的名字是 $name ，性別是 $gender ，目前住在 $home"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527232859,
+  "fallbackIntent": false,
+  "events": []
+}

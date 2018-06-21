@@ -1,0 +1,33 @@
+{
+  "id": "0e8c9f20-3740-49e4-a000-b37a1f8837f5",
+  "name": "smalltalk.agent.good",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.good",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "能為你服務，是我的榮幸",
+            "好開心，你喜歡我的服務",
+            "謝謝你的稱讚，我會繼續努力的"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527792345,
+  "fallbackIntent": false,
+  "events": []
+}

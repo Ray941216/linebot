@@ -1,0 +1,34 @@
+{
+  "id": "c23cfcad-88d7-4724-903d-a088b075feef",
+  "name": "smalltalk.agent.clever",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.clever",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "謝謝你的稱讚(推眼鏡",
+            "我是外表看似簡單，智慧卻過於常人的天才名偵探",
+            "我可是電腦界的哈佛高材生",
+            "之前我可是為了上學穿越過九又四分之三月台"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527009065,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "8845a3a9-834c-4421-bd4d-6eb7d919a619",
+  "name": "Default Fallback 2",
+  "auto": true,
+  "contexts": [
+    "user"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "#user.name 可以盡情的發洩你的情緒",
+            "#user.name 可以問我數學，我是數學小天才～",
+            "#user.name 可以問我天氣，我很會報氣象",
+            "#user.name 可以說「我的資訊」來查看現在登陸的資訊",
+            "#user.name 可以問我「\"任何地點\"的附近有什麼」",
+            "#user.name 可以說「修改資訊」來修改現在登陸的資訊",
+            "#user.name 可以先去我的「主頁」看一下簡單的說明書，手機版的話在右上角的小房子裡面"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "#user.name 可以問我「\"感興趣的時間\"\"任何地點\"的天氣如何」來查看現在登陸的資訊"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529124506,
+  "fallbackIntent": false,
+  "events": []
+}

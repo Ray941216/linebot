@@ -1,0 +1,227 @@
+[
+  {
+    "id": "2e771e20-8ec4-4694-9e81-682c7bfd32e0",
+    "data": [
+      {
+        "text": "回答我問你的問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "228dede4-ae35-44c9-bd8b-30adabd520b6",
+    "data": [
+      {
+        "text": "你能回答我的問題嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "2fd9f286-62a0-4c4e-8134-b40759d38b96",
+    "data": [
+      {
+        "text": "給我答案",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "d0b8855a-00d9-4f3c-a68f-cd7292acc092",
+    "data": [
+      {
+        "text": "我有個問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "f49147c8-451e-4e2a-913a-5abc1b2ded5e",
+    "data": [
+      {
+        "text": "我現在想要答案",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "673cf71b-a321-411c-ae70-8dd124ca4cf0",
+    "data": [
+      {
+        "text": "回答我的問題吧",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "562e66dd-592a-451f-a875-dbaf2095ccf1",
+    "data": [
+      {
+        "text": "快點回答我的問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "4443f0a4-eb3f-4e5c-8880-d02b492a3a1c",
+    "data": [
+      {
+        "text": "給我答案吧",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "a1d3bbeb-221f-42fc-a587-7361c2242ee4",
+    "data": [
+      {
+        "text": "你會",
+        "userDefined": false
+      },
+      {
+        "text": "回答",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": "我的問題嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808888
+  },
+  {
+    "id": "fb8fd565-5dfe-49b9-b9c5-dd28520101e4",
+    "data": [
+      {
+        "text": "我要你回答我的問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "35b8763d-004c-47b7-b013-a900ae3f8c55",
+    "data": [
+      {
+        "text": "你能回答一個問題嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "355725f8-7a1a-4127-8405-287c2b4dd05b",
+    "data": [
+      {
+        "text": "只是回答我的問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "bd71ed49-c68f-4321-8eb7-57e0ddd4d2c7",
+    "data": [
+      {
+        "text": "只是回答這個問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "61081e84-f34f-45eb-acbc-0ee1ad88c96c",
+    "data": [
+      {
+        "text": "你可以回答我嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "88b5cbec-ac2b-4823-8a94-b35a3b4c1aa2",
+    "data": [
+      {
+        "text": "告訴我個答案",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "02789d9a-b575-4164-85fa-029b17e62ece",
+    "data": [
+      {
+        "text": "回答我的問題",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "505d2c7a-9628-4a30-b7a0-8202f54e1fbd",
+    "data": [
+      {
+        "text": "你會不會回答我的問題嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  },
+  {
+    "id": "c517ce39-0a52-4f82-b758-04d02b39992b",
+    "data": [
+      {
+        "text": "你可以回答嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526808762
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "52fdd0f3-acff-4d95-8bcb-293e773d495f",
+    "data": [
+      {
+        "text": "我真睡不著",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cfa1fe1a-2409-425c-a364-6ea12594e288",
+    "data": [
+      {
+        "text": "我覺得睡不著",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "717d4d0b-96e8-41e2-a901-2b59afac7d9f",
+    "data": [
+      {
+        "text": "我真的睡不著",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bdd9ab4b-4cd8-491c-909f-191aa1a0a033",
+    "data": [
+      {
+        "text": "我睡不著",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "267318f4-3c77-4b11-8205-30f5ac91a9bc",
+    "data": [
+      {
+        "text": "我正在睡不著",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c319b000-6521-4d34-8c9d-0b85647a630c",
+    "data": [
+      {
+        "text": "睡不著",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e6821266-0243-4556-ae16-5908140ae4a7",
+    "data": [
+      {
+        "text": "睡不著怎麽辦",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "b2a08e4e-a964-483a-a37e-ed8e03422fdd",
+  "name": "smalltalk.greetings.bye",
+  "auto": true,
+  "contexts": [
+    "user"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.bye",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "77a89161-3746-45b9-b51c-3095fd382cfe",
+          "required": false,
+          "dataType": "@greeting_task",
+          "name": "task",
+          "value": "$task",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "親愛的 #user.name$task，我會一直等您再次使用的",
+            "親愛的 #user.name$task，期待主人再來找我玩"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527792282,
+  "fallbackIntent": false,
+  "events": []
+}

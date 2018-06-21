@@ -1,0 +1,29 @@
+{
+  "id": "5d394683-b7e5-4b44-9ee3-4e823c2adce8",
+  "name": "smalltalk.emotions.ha_ha",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.emotions.ha_ha",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "什麼很好笑的？我也要聽"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527649502,
+  "fallbackIntent": false,
+  "events": []
+}

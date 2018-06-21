@@ -1,0 +1,122 @@
+[
+  {
+    "id": "c2db6cb3-1237-404c-b465-f86a98368656",
+    "data": [
+      {
+        "text": "下頁",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527906653
+  },
+  {
+    "id": "bb695730-95e2-4e79-b829-40ffe1a53b8b",
+    "data": [
+      {
+        "text": "下一頁",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527906653
+  },
+  {
+    "id": "eca24734-975f-49fa-a7b0-7b8a410f28a6",
+    "data": [
+      {
+        "text": "next",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527906653
+  },
+  {
+    "id": "e6d0f256-8368-472c-8a95-e64428fc1bf4",
+    "data": [
+      {
+        "text": "下一筆搜尋結果",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527906653
+  },
+  {
+    "id": "196a40f9-bffc-4273-b605-d1fa979cb82c",
+    "data": [
+      {
+        "text": "讀出下一頁的搜尋結果",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527906653
+  },
+  {
+    "id": "69f0ddc7-1e27-46f0-9282-95572a8cc4a5",
+    "data": [
+      {
+        "text": "前往下一頁",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527697902
+  },
+  {
+    "id": "213695f4-bbf1-489d-a55c-06b11cc48181",
+    "data": [
+      {
+        "text": "切換至下一個",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527906653
+  },
+  {
+    "id": "98fc1e86-6d05-4483-a998-a876608a90de",
+    "data": [
+      {
+        "text": "顯示下一頁的搜尋結果",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527906653
+  },
+  {
+    "id": "f6b53cdb-3bf6-42d2-825d-86513a5348cf",
+    "data": [
+      {
+        "text": "繼續",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1527906653
+  },
+  {
+    "id": "8058de97-73b5-4852-a4e6-423c87532197",
+    "data": [
+      {
+        "text": "顯示下一頁",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1527906653
+  }
+]

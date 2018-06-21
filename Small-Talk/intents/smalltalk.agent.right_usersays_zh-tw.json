@@ -1,0 +1,26 @@
+[
+  {
+    "id": "b61af13b-3ceb-4ef7-b2eb-d3aa3aceb280",
+    "data": [
+      {
+        "text": "你說得對",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "63033e42-de97-4e4c-9227-eab650b75461",
+    "data": [
+      {
+        "text": "你是對的",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

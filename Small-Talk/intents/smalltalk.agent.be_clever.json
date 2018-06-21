@@ -1,0 +1,34 @@
+{
+  "id": "9b91e4d3-3623-4d8a-984e-cabc05a7e2b0",
+  "name": "smalltalk.agent.be_clever",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.be_clever",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "我會努力的",
+            "我會好好讀書的",
+            "所以你不要像我一樣，要認真點",
+            "我會好好認真的"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526906652,
+  "fallbackIntent": false,
+  "events": []
+}

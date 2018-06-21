@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fcdefb3e-4e52-4d86-8aa2-883aeb819d7e",
+    "data": [
+      {
+        "text": "歡迎",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "光臨",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527128516
+  },
+  {
+    "id": "9e53e578-d3b5-43fd-b205-947928af572a",
+    "data": [
+      {
+        "text": "祝賀你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527130014
+  },
+  {
+    "id": "3ea77d1f-5c5a-4bb2-abc1-3b5618d1b0d3",
+    "data": [
+      {
+        "text": "祝賀",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527130014
+  }
+]

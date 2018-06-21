@@ -1,0 +1,36 @@
+{
+  "id": "d8ab824b-1b19-4007-a095-fd3862c6eed6",
+  "name": "Default fallback",
+  "auto": true,
+  "contexts": [
+    "user"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "#user.name 可以盡情的發洩你的情緒",
+            "#user.name 可以問我數學，我是數學小天才～",
+            "#user.name 可以問我天氣，我很會報氣象",
+            "#user.name 我目前還無法理解您的意圖，請過幾天後再試試！"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527154908,
+  "fallbackIntent": true,
+  "events": []
+}

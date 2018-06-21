@@ -1,0 +1,36 @@
+{
+  "id": "1417cd93-4faa-4c33-86f3-7fe1d9303392",
+  "name": "smalltalk.agent.can_you_help",
+  "auto": true,
+  "contexts": [
+    "user"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.can_you_help",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "怎麼了 #user.name ?",
+            "有什麼我能幫忙的嗎",
+            "Yes, my lord~",
+            "我看看我的百寶袋裡有什麼"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527770484,
+  "fallbackIntent": false,
+  "events": []
+}

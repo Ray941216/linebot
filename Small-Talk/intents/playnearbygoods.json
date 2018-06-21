@@ -1,0 +1,66 @@
+{
+  "id": "6baa1c9e-d3ea-49b3-bd60-e5182d160005",
+  "name": "playnearbygoods",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "playnearbygoods",
+      "affectedContexts": [
+        {
+          "name": "playnearbygoods-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a56200fc-1eee-4c14-8045-ab639fb918a2",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "place",
+          "value": "$place",
+          "isList": false
+        },
+        {
+          "id": "b35efde4-4ab7-40bd-a2d5-52bf459d33f4",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "near-by-n-km",
+          "value": "$near-by-n-km",
+          "prompts": [
+            {
+              "lang": "zh-tw",
+              "value": "請告訴我要搜尋「方圓幾公里」以內的景點？"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "4cfb113c-1b23-4433-a551-e25462bfd8fc",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "next",
+          "value": "0",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "找不到相關資訊，請確認地點是否在台灣"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529124662,
+  "fallbackIntent": false,
+  "events": []
+}

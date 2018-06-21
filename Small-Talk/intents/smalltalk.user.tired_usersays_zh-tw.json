@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a438da80-f808-4450-96d0-880c65e425cf",
+    "data": [
+      {
+        "text": "我累了",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e1c7aacc-ef7b-4a17-b1e2-2189303dc1f1",
+    "data": [
+      {
+        "text": "我勞累了",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9131ae66-31bd-4618-b8c7-899cc7cbc98d",
+    "data": [
+      {
+        "text": "我累了得很",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ce347226-c42e-40be-81b9-e120d9b471d9",
+    "data": [
+      {
+        "text": "我疲勞了",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5dacbaae-7e98-4826-ab7e-5fb35f10a1dd",
+    "data": [
+      {
+        "text": "我疲倦了",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

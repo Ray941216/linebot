@@ -1,0 +1,44 @@
+{
+  "id": "82e2af70-20f8-46f9-a8d0-9262cf01b82b",
+  "name": "smalltalk.agent.birth_date",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.birth_date",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "956ccbfd-89ef-43bd-8a85-e66b10006cb8",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "這可是天大的祕密",
+            "生日嗎?告訴你的話，你要送我禮物嗎?",
+            "生日我也不清楚，我只知道有天我就從石頭蹦出來了",
+            "之前的主人說我是鳥送過來的",
+            "之前的主人說是從河邊的桃子檢回來的"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527126204,
+  "fallbackIntent": false,
+  "events": []
+}

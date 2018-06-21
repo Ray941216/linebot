@@ -1,0 +1,62 @@
+{
+  "id": "9453a8c0-eb5e-40e9-a182-9e549d9b31a9",
+  "parentId": "6baa1c9e-d3ea-49b3-bd60-e5182d160005",
+  "rootParentId": "6baa1c9e-d3ea-49b3-bd60-e5182d160005",
+  "name": "playnearbygoods - next",
+  "auto": true,
+  "contexts": [
+    "playnearbygoods-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "playnearbygoods.playnearbygoods-next",
+      "affectedContexts": [
+        {
+          "name": "playnearbygoods-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ee19fc3f-6a83-4fa1-a7dc-da9aa394fb6b",
+          "required": false,
+          "name": "place",
+          "value": "#playnearbygoods-followup.place",
+          "isList": false
+        },
+        {
+          "id": "d9933d00-90b8-4023-8c22-3de6c12fd0f2",
+          "required": false,
+          "name": "near-by-n-km",
+          "value": "#playnearbygoods-followup.near-by-n-km",
+          "isList": false
+        },
+        {
+          "id": "0b4efe59-8994-4354-8e58-d2ac7726c72e",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "next",
+          "value": "#playnearbygoods-followup.next+1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527906653,
+  "fallbackIntent": false,
+  "events": []
+}

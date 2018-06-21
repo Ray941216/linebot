@@ -1,0 +1,936 @@
+[
+  {
+    "id": "08f80a63-9eb9-4a82-9c2c-0ada1a5607c5",
+    "data": [
+      {
+        "text": "今日",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "如何？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "f800438d-9b44-42ce-b4f6-502a94fb7590",
+    "data": [
+      {
+        "text": "@sys.any:place @weather_period:period @weather_task:task 如何",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "855f9b6c-4ce4-4107-97c6-10891f7172f5",
+    "data": [
+      {
+        "text": "老天爺",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      },
+      {
+        "text": "今天",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": false
+      },
+      {
+        "text": "的心情如何",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "c7a651fe-b14d-49f2-bfae-8ca802e5a0e9",
+    "data": [
+      {
+        "text": "weather",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "9d165b63-c178-4ea9-b5ea-1c3defea35cf",
+    "data": [
+      {
+        "text": "明天",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": false
+      },
+      {
+        "text": "的",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "66db0065-4375-4079-821e-02d721161d71",
+    "data": [
+      {
+        "text": "你覺得",
+        "userDefined": false
+      },
+      {
+        "text": "今天",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "可以翹課嗎",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "dfcf0101-b584-40a3-b98d-22e5290ce8b8",
+    "data": [
+      {
+        "text": "@sys.any:place 的 @weather_task:task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "fe2dbf76-9572-4204-a542-c20846d8c01d",
+    "data": [
+      {
+        "text": "What\u0027 s the ",
+        "userDefined": false
+      },
+      {
+        "text": "weather",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": " like?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "5bb64ccf-1e82-4bcd-b21c-be19b32c432c",
+    "data": [
+      {
+        "text": "今天",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": false
+      },
+      {
+        "text": "會不會",
+        "userDefined": false
+      },
+      {
+        "text": "下雨",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "21f8f8f7-7af8-454b-9fde-b817da73d2b5",
+    "data": [
+      {
+        "text": "台南",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "的",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "ef70c3ae-1e0e-4236-bb00-e477a8601949",
+    "data": [
+      {
+        "text": "現在",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "桃園",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "的",
+        "userDefined": false
+      },
+      {
+        "text": "氣溫",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "幾度？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "53a5fbec-d5e4-4590-857b-2444778f7022",
+    "data": [
+      {
+        "text": "@sys.any:place @weather_period:period @weather_task:task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "040674f4-4e4f-43f7-a9b4-ba1f7d8453dc",
+    "data": [
+      {
+        "text": "明天",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      },
+      {
+        "text": "如何？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "7be4a4a9-ff6e-4958-af41-7955c2b85c3f",
+    "data": [
+      {
+        "text": "這週",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      },
+      {
+        "text": "如何？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "8d9a752a-1060-4d75-b786-2afc1447bb74",
+    "data": [
+      {
+        "text": "@sys.any:place @weather_period:period 的 @weather_task:task 如何",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "ee8a4f65-2992-490b-8bbf-8657dec524f3",
+    "data": [
+      {
+        "text": "我想要查",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "85ca427c-02f1-415e-891a-9fe0b90b31b2",
+    "data": [
+      {
+        "text": "告訴我",
+        "userDefined": false
+      },
+      {
+        "text": "現在",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "的",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "怎麼樣",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "6705373b-518b-4f05-ae7d-0ff7060b77d0",
+    "data": [
+      {
+        "text": "今天",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "如何",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "75a2ee6f-6bc0-4c9b-8fc6-fbd15701e040",
+    "data": [
+      {
+        "text": "現在",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "台中",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "的",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "如何",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "54423d79-c4ba-458c-8a53-e5f38a89f7d1",
+    "data": [
+      {
+        "text": "@weather_period:period @sys.any:place  @weather_task:task 如何",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "9603049d-9360-400d-b6b4-ececac551130",
+    "data": [
+      {
+        "text": "@weather_period:period @sys.any:place 的 @weather_task:task 如何",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "38912456-ec4d-45d6-82fb-7a536f7cd545",
+    "data": [
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "4b02de1c-ce53-4695-8960-c347d335c416",
+    "data": [
+      {
+        "text": "這週末",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "玉山",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "怎樣？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "965215c4-8a05-4df5-8876-7e4cd4a349d3",
+    "data": [
+      {
+        "text": "現在",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "台南",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "的",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "如何",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "23aeaff0-8f6a-4860-a113-5bea627357d7",
+    "data": [
+      {
+        "text": "現在",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "台南",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "的",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "9307e5b6-5730-4b09-a472-3cc3ab0d397c",
+    "data": [
+      {
+        "text": "幹，會不會",
+        "userDefined": false
+      },
+      {
+        "text": "下雨",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "cd227aae-d414-415a-9050-951891fce871",
+    "data": [
+      {
+        "text": "天靈靈地靈靈",
+        "userDefined": false
+      },
+      {
+        "text": "明天",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": false
+      },
+      {
+        "text": "會不會",
+        "userDefined": false
+      },
+      {
+        "text": "下雨",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "4f306272-b503-4b58-b604-243fde1e638d",
+    "data": [
+      {
+        "text": "明天",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": false
+      },
+      {
+        "text": "一中商圈",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": "會",
+        "userDefined": false
+      },
+      {
+        "text": "下雨",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "嗎？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "b177f5d0-cba6-4e4e-9e0d-f9e5fd653920",
+    "data": [
+      {
+        "text": "現在",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "如何？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "f1528c42-9fad-4b68-9b04-e8608e46b4f6",
+    "data": [
+      {
+        "text": "現在",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "如何",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "986a74d4-6971-4d88-bd23-927d0b3e067f",
+    "data": [
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "問天",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "4c0429cf-f52c-4d6e-ba47-d0cc295e2a9d",
+    "data": [
+      {
+        "text": "彰化",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      },
+      {
+        "text": "如何？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "ede408d4-2eb2-4367-89c5-8aea6d1d6d15",
+    "data": [
+      {
+        "text": "現在",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "c51a8ad1-4d96-47c9-99b4-891de55ceec5",
+    "data": [
+      {
+        "text": "How\u0027s the ",
+        "userDefined": false
+      },
+      {
+        "text": "weather",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "now",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "9e890209-6a5a-4690-89d6-c04125f973b7",
+    "data": [
+      {
+        "text": "一中商圈",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "的",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "2f764b5d-f2f4-4d1c-a6b8-0346bb921540",
+    "data": [
+      {
+        "text": "現在",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "氣溫",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": false
+      },
+      {
+        "text": "幾度？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "8bd8904c-8505-408b-a656-8fb12ae2335c",
+    "data": [
+      {
+        "text": "please ",
+        "userDefined": false
+      },
+      {
+        "text": "tell me good news",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "70194ce9-aaad-45b6-8fb9-003fb9360cf5",
+    "data": [
+      {
+        "text": "@sys.any:place @weather_period:period 的 @weather_task:task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "653c609f-bc65-43a7-8220-5a36a68a687f",
+    "data": [
+      {
+        "text": "@weather_period:period @sys.any:place 的 @weather_task:task",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "501b1416-b79d-4caf-b7b4-3e458c476ddc",
+    "data": [
+      {
+        "text": "要不要",
+        "userDefined": false
+      },
+      {
+        "text": "帶傘",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "0c30fad2-8aee-40eb-b2ba-12336f81f47e",
+    "data": [
+      {
+        "text": "台中",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "現在",
+        "alias": "period",
+        "meta": "@weather_period",
+        "userDefined": true
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      },
+      {
+        "text": "如何？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  },
+  {
+    "id": "eb4610dd-da02-41ae-931f-5b5ef4686426",
+    "data": [
+      {
+        "text": "一中商圈",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "的",
+        "userDefined": false
+      },
+      {
+        "text": "天氣",
+        "alias": "task",
+        "meta": "@weather_task",
+        "userDefined": true
+      },
+      {
+        "text": "如何？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527792179
+  }
+]

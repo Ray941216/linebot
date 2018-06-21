@@ -1,0 +1,35 @@
+{
+  "id": "887f7845-0ba2-4281-880a-1d0e32097c40",
+  "name": "smalltalk.agent.annoying",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.annoying",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "你可以把通知關掉",
+            "哭哭~你可以把我關靜音",
+            "我只是想跟你聊天麻~",
+            "我只是想跟你做朋友",
+            "加了我就不要丟棄我"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526833719,
+  "fallbackIntent": false,
+  "events": []
+}

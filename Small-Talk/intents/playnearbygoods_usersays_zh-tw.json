@@ -1,0 +1,146 @@
+[
+  {
+    "id": "201169df-c034-4894-985b-c2af0191408b",
+    "data": [
+      {
+        "text": "@sys.any:place  附近有什麼",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527700342
+  },
+  {
+    "id": "c13aff1c-6af0-430b-a8cf-9977a5521dfd",
+    "data": [
+      {
+        "text": "我附近有什麼",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527700342
+  },
+  {
+    "id": "cb7481c8-9d77-490b-9763-0398d41995f9",
+    "data": [
+      {
+        "text": "我附近有什麼景點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527700342
+  },
+  {
+    "id": "4a943d72-5e1a-4b16-88de-3af728060c9f",
+    "data": [
+      {
+        "text": "@sys.any:place  的附近有什麼",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527700342
+  },
+  {
+    "id": "e4bec069-6b5e-4720-afd8-0374335a28c9",
+    "data": [
+      {
+        "text": "中央大學",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "附近有什麼景點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527700342
+  },
+  {
+    "id": "e982016c-29f7-4fdc-8f1d-2e2d100a3b56",
+    "data": [
+      {
+        "text": "附近的景點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527786355
+  },
+  {
+    "id": "83658992-2fab-4ad0-8009-2c0a6f94fd85",
+    "data": [
+      {
+        "text": "@sys.any:place @sys.number:near-by-n-km 公里內有什麼",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527700342
+  },
+  {
+    "id": "f4b8ecc7-262e-40ed-934a-faeb8df229d1",
+    "data": [
+      {
+        "text": "@sys.any:place  的附近有什麼景點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527700342
+  },
+  {
+    "id": "f8ebc26f-0daa-4c30-9342-0913bf0a218a",
+    "data": [
+      {
+        "text": "@sys.any:place  附近有什麼景點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527700342
+  },
+  {
+    "id": "acd9d47d-7e1d-40b3-8d79-46ab2c39a44c",
+    "data": [
+      {
+        "text": "中央大學",
+        "alias": "place",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "的附近有什麼景點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527700342
+  },
+  {
+    "id": "3df7873b-4778-4db4-b9fe-ae1b44318aaa",
+    "data": [
+      {
+        "text": "@sys.any:place @sys.number:near-by-n-km 公里內有什麼景點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1527700342
+  }
+]

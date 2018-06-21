@@ -1,0 +1,90 @@
+{
+  "id": "41f6c2ae-1f8a-4bca-b5cd-06c5a5cd0b74",
+  "name": "Default_Welcome_hello",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Default_Welcome",
+      "affectedContexts": [
+        {
+          "name": "user",
+          "parameters": {},
+          "lifespan": 1410065407
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3b99c3cf-916b-4943-8cf5-51c2caed946f",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "zh-tw",
+              "value": "您看起來是我的新主人呢！可以請主人告訴我您的「大名」嗎？"
+            },
+            {
+              "lang": "zh-tw",
+              "value": "新主人您好，我想知道主人的「大名」～"
+            },
+            {
+              "lang": "zh-tw",
+              "value": "請主人告訴我您的「大名」～"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "10435ee1-ce5f-4c49-a183-df6c3b8c757e",
+          "required": true,
+          "dataType": "@gender",
+          "name": "gender",
+          "value": "$gender",
+          "prompts": [
+            {
+              "lang": "zh-tw",
+              "value": "請主人告訴我您的「性別」"
+            },
+            {
+              "lang": "zh-tw",
+              "value": "親愛的主人，請告訴我您的「生理性別」"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1054a55a-37e5-4a38-b8c1-af10a385a319",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "home",
+          "value": "$home",
+          "prompts": [
+            {
+              "lang": "zh-tw",
+              "value": "請問主人「現在住在哪裡」（天氣以及查地點功能會用到）？"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": "住在 $home 的 $name 歡迎使用本執事服務，您可以跟我聊天、問天氣、叫我算數學⋯⋯等"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1527771672,
+  "fallbackIntent": false,
+  "events": []
+}

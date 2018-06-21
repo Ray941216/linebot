@@ -1,0 +1,131 @@
+[
+  {
+    "id": "fd4c1426-9a10-48cb-88f4-2d0a6b19d8c5",
+    "data": [
+      {
+        "text": "我希望能再次見到你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fb9eaf30-3ccf-4830-a095-b6c485cf96a5",
+    "data": [
+      {
+        "text": "再次見到你將會很棒",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2e5c7e12-b54a-4187-9d6b-5e7fea005c0b",
+    "data": [
+      {
+        "text": "我會不會再一次見面你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b00bfa96-a155-4f48-8459-f139574f8f16",
+    "data": [
+      {
+        "text": "我會再一次見面你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f9ae632e-c1ca-4159-98df-12a475e7d876",
+    "data": [
+      {
+        "text": "可以再一次見面你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9cf665ea-0e91-47fa-8ae1-eb62eba47a55",
+    "data": [
+      {
+        "text": "我可",
+        "userDefined": false
+      },
+      {
+        "text": "以",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "再次見到你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "20c23e2e-9fce-47a8-a269-3d4b773257d7",
+    "data": [
+      {
+        "text": "我很高興再次見到你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "342615f3-9b65-4c15-831b-525647062b79",
+    "data": [
+      {
+        "text": "我會想念你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f8dd25e5-05fc-4b2e-9d6a-469cbfe009d2",
+    "data": [
+      {
+        "text": "很高興再次見到你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "26b479e6-e840-40ad-a412-9aca08fcb465",
+    "data": [
+      {
+        "text": "我可以再見到你嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

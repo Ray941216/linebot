@@ -1,0 +1,72 @@
+[
+  {
+    "id": "61639610-a024-4f6f-95d6-dad102d34c8a",
+    "data": [
+      {
+        "text": "天",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": "哪",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527649480
+  },
+  {
+    "id": "81a4086c-c5b5-4249-93a7-dff43879d75d",
+    "data": [
+      {
+        "text": "哇塞",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527649480
+  },
+  {
+    "id": "1fd74a4c-35bf-4b89-a679-b4827dcb3915",
+    "data": [
+      {
+        "text": "哇",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527649480
+  },
+  {
+    "id": "8dc42cb9-84f4-4738-94fe-5372d323760e",
+    "data": [
+      {
+        "text": "我的",
+        "userDefined": false
+      },
+      {
+        "text": "天",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527649480
+  },
+  {
+    "id": "64e86ff6-f94e-489c-9236-5a93beeebe33",
+    "data": [
+      {
+        "text": "哇哦",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527649480
+  }
+]
